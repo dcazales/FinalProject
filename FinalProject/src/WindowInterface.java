@@ -139,23 +139,6 @@ public class WindowInterface extends JFrame {
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
             }
         });
         
@@ -196,8 +179,6 @@ public class WindowInterface extends JFrame {
         c.add(scrollpane, BorderLayout.CENTER);
         
 
-        
-      
         
     }
     public WindowInterface() {

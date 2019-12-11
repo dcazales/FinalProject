@@ -27,7 +27,7 @@ public class InternetScrapper {
                 line = linksc.nextLine();
                 
                 //System.out.println(line);
-                
+                //
             	if (line.contains("<title>")) {
                 	title =  line.replace("<title>", "").replace("</title>", "");
             		System.out.println(title);
