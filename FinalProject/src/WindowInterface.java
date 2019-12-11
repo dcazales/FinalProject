@@ -112,7 +112,7 @@ public class WindowInterface extends JFrame {
                     	 if(line.contains("<td><b><a href=\"/movie/")) {
                     		String[] movieLine= line.split(">");
                     		movieName = movieLine[3].replace("</b","");
-                    		textToShow = textToShow + "Movie Name: "  + movieName +"\t";
+                    		textToShow = textToShow + "Movie Name: "  + movieName +"\n";
                             txaWords.setText(textToShow);
                     		
 
